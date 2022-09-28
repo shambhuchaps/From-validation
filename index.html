@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Management System</title>
+    <link rel="stylesheet" href="mystyle.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Client Management System</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr />
+        <div class="bodypart">
+            <form action="" name="myForm" onsubmit="return validate()">
+            <div class="namepart">
+                <div class="firstna">
+                    <label for="fname" class="head"> First Name </label>
+                    <input type="text" id="fname" placeholder="Enter firstname" />
+                </div>
+                <div class="lastna">
+                    <label for="lname" class="head"> Last Name </label>
+                    <input type="text" id="lname" placeholder="Enter Lastname" />
+                </div>
+            </div>
+            <div class="lowerPart">
+                <label for="username" class="head"> Username </label> <br />
+                <input type="text" id="username" placeholder="Enter Username" /><br /><br>
+                <label for="email" class="head"> Email </label><br />
+                <input type="email" id="email" placeholder="Enter Email" /><br /><br>
+                <label for="password" class="head"> Password </label><br />
+                <input type="password" id="password" placeholder="Enter password" /><br /><br>
+                <label for="confrimPassword" class="head"> Confirm Password </label><br />
+                <input type="password" id="confrimPassword" placeholder="Confirm password" />
+            </div>
+            <div class="btn">
+                <button type="submit">Register</button>
+            </div>
+        </form> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
